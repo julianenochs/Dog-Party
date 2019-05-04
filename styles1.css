@@ -1,0 +1,143 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  /*border: red 1px solid;*/
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+}
+
+nav {
+	background-color: #75e2e6;
+	text-align: right;
+	padding: -1px 10px 10px 10px;
+	text-decoration: none;
+	border-bottom: solid;
+	border-bottom-color: #048eaa;
+}
+
+.logo {
+	margin-left: 10px;
+	margin-top: 10px;
+	height: 60px;
+	width: 60px;
+}
+
+li {
+	display: inline;
+	padding: 10px;
+}
+
+a:link {
+	text-decoration: none;
+	color:black;
+}
+
+span.some-dogs {
+	font-style: bold;
+}
+
+.top-site {
+	background-image: url(file:///Users/julianenochs/Downloads/dogdownload/park.jpg);
+	background-size: cover;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: large;
+	padding: 30px;
+	color: white;
+}
+
+.middle-site{
+	height: 60%;
+	text-align: ;
+
+}
+.dog-photo1 {
+	width: 240px;
+	border-radius: 50%;
+	border: 4px solid #048eaa;
+}
+form {
+	margin: 0 auto;
+	width: 250px;
+}
+
+.form-input{
+	text-align: left;
+	display: block;
+}
+
+.button1 {
+	background-color: #75e2e6;
+	text-align: center;
+	padding: 5px;
+	width: 250px;
+    font-size: medium;
+}
+
+h1 {
+	font-family: "Open sans" sans-serif;
+	font-weight: 400;
+	color: white;
+	background-color: transparent;
+}
+
+h2 {
+	margin-left: 80px;
+}
+
+.dog-photo {
+	width: 230px;
+	border-radius: 50%;
+	border: 4px solid #048eaa;
+	display: inline-block;
+	margin: 50px;
+}
+.text-box {
+	height: 300px;
+	width: 300px;
+	margin-left: 25px;
+}
+.row {
+	float:left;
+	width: 33%;
+	padding: 10px;
+	height: 900px;
+	margin-bottom: 30px;
+}
+
+.button2 {
+	background-color: #048eaa;
+	color: white;
+	width: 250px;
+	text-align: center;
+	font-size: large;
+	margin: 10px 50px 20px 50px;
+	height: 40px;
+}
+
+/*#what-button,
+#how-button {
+	margin: 10px 50px 20px 50px;
+}
+
+#facts-button {
+	margin: 35px 50px 20px 50px;*/
+}
+
+h4 {
+	text-align: center;
+}
+
+footer {
+	background-color: #048eaa;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	clear: both;
+	height: 200px;
+}
+

@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /*border: red 1px solid;*/
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+nav {
+	background-color: #9A969C;
+	text-decoration: none;
+	border-right-style: solid;
+	height: 1500px;
+	width: 17%;
+	float: left;
+	position: absolute;
+	color: black;
+}
+
+a:link {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+.logo {
+	height: 150px;
+	width: 150px;
+	margin-bottom: 30px;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+ul{
+	margin-top: 200px;
+	color: black;
+}
+
+li {
+	margin-left: 25px;
+	margin-top: 25px;
+	color: black;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 200;
+	color: white;
+	text-align: center;
+	margin-left: 286px;
+}
+
+h2 {
+	margin-left: 40px;
+	margin-top: 78px;
+}
+
+.top-site {
+	background-color: #3E3544;
+	color: white;
+	float: right;
+	padding-right: 30px;
+	width: 83%;
+	height: 350px;
+}
+
+.form-input {
+	font-weight: lighter;
+}
+
+form {
+	margin-top: 100px;
+}
+
+label.form-input {
+	font-size:large;
+	margin-left: 140px;
+}
+
+input#name {
+	height: 40px;
+	width: 400px;
+	margin-left: 140px;
+}
+
+.dog-photo1 {
+	width: 300px;
+	float: left;
+	margin-top: -2%;
+	margin-left: 90px;
+	border-radius: 50%;
+	border: 7px solid #9A969C;
+}
+
+.button1{
+	font-family: 'Roboto Slab', serif;
+	background-color: #9A969C;
+	width: 400px;
+	font-size: x-large;
+	padding: 5px;
+	margin-left: 140px;
+}
+
+.middle-site {
+	width: 83%;
+	margin-left: 20%;
+	height: 700px;
+}
+
+
+.row {
+	display: inline-block;
+	width: 93%;
+	height: 384px;
+	margin-top: -67px;
+	border-bottom: solid grey 4px;
+} 
+
+.row3 {
+	border-bottom: none;
+}
+.text-box {
+	margin-right:80px;
+	width: 55%;
+	height: 150px;
+	float: right;
+}
+
+#what-button,
+#facts-button,
+#how-button {
+	font-size: large;
+}
+.button2 {
+	font-family: 'Roboto Slab', serif;
+	border-radius: 6%;
+	color: white;
+	float: right;
+	margin-right: -42%;
+	margin-top: 11%;
+	background-color: #3E3544;
+	width: 180px;
+	height: 40px;
+	font-size: x-large;
+	padding: 5px;
+}
+
+.dog-photo {
+	width: 230px;
+	border-radius: 50%; 
+	border: 4px solid #9A969C;
+	display: inline-block;
+}
+
+h4 {
+	margin-top: -1%;
+}
+
+footer {
+	background-color: #3E3544;
+	color: white;
+	text-align: right;
+	padding: 50px;
+	clear: both;
+	height: 200px;
+	width: 100%;
+	margin-top: 600px;
+}
+
+ .social {
+ 	margin-top: 1%;
+	width: 115px;
+	display: inline-block;
+}
+
+/*media query down to 320*/
