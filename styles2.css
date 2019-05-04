@@ -5,8 +5,17 @@
   /*border: red 1px solid;*/
 }
 
+/*@media screen and (min-width: 900px) {*/
+  body {
+    
+  }
+
 body {
     font-family: 'Roboto Slab', serif;
+    /*width: 1000px;
+    margin-left: 140px;
+    border-style: solid;
+    border-color: black;*/
 }
 
 nav {
@@ -14,7 +23,7 @@ nav {
 	text-decoration: none;
 	border-right-style: solid;
 	height: 1500px;
-	width: 17%;
+	width: 15%;
 	float: left;
 	position: absolute;
 	color: black;
@@ -31,22 +40,22 @@ a:visited {
 }
 
 .logo {
-	height: 150px;
-	width: 150px;
+	height: 200px;
+	width: 200px;
 	margin-bottom: 30px;
-	margin-left: 40px;
+	margin-left: 25px;
 	margin-top: 20px;
 }
 
-ul{
-	margin-top: 200px;
-	color: black;
+ul {
+	font-size: x-large;
+	margin-top: 300px;
 }
 
 li {
 	margin-left: 25px;
 	margin-top: 25px;
-	color: black;
+	padding: 10px;
 }
 
 h1 {
@@ -67,7 +76,7 @@ h2 {
 	color: white;
 	float: right;
 	padding-right: 30px;
-	width: 83%;
+	width: 95%;
 	height: 350px;
 }
 
@@ -81,20 +90,20 @@ form {
 
 label.form-input {
 	font-size:large;
-	margin-left: 140px;
+	margin-left: 250px;
 }
 
 input#name {
 	height: 40px;
 	width: 400px;
-	margin-left: 140px;
+	margin-left: 250px;
 }
 
 .dog-photo1 {
 	width: 300px;
 	float: left;
 	margin-top: -2%;
-	margin-left: 90px;
+	margin-left: 200px;
 	border-radius: 50%;
 	border: 7px solid #9A969C;
 }
@@ -105,7 +114,7 @@ input#name {
 	width: 400px;
 	font-size: x-large;
 	padding: 5px;
-	margin-left: 140px;
+	margin-left: 250px;
 }
 
 .middle-site {
@@ -113,7 +122,6 @@ input#name {
 	margin-left: 20%;
 	height: 700px;
 }
-
 
 .row {
 	display: inline-block;
@@ -126,8 +134,11 @@ input#name {
 .row3 {
 	border-bottom: none;
 }
+
 .text-box {
-	margin-right:80px;
+	font-weight: lighter;
+	font-size: x-large;
+	margin-right:160px;
 	width: 55%;
 	height: 150px;
 	float: right;
@@ -136,18 +147,19 @@ input#name {
 #what-button,
 #facts-button,
 #how-button {
-	font-size: large;
+	font-size: x-large;
 }
+
 .button2 {
 	font-family: 'Roboto Slab', serif;
-	border-radius: 6%;
+	border-radius: 15px;
 	color: white;
 	float: right;
-	margin-right: -42%;
-	margin-top: 11%;
+	margin-right: -60%;
+	margin-top: 16%;
 	background-color: #3E3544;
-	width: 180px;
-	height: 40px;
+	width: 200px;
+	height: 50px;
 	font-size: x-large;
 	padding: 5px;
 }
@@ -159,14 +171,11 @@ input#name {
 	display: inline-block;
 }
 
-h4 {
-	margin-top: -1%;
-}
-
 footer {
 	background-color: #3E3544;
 	color: white;
 	text-align: right;
+	margin-right: 70px;
 	padding: 50px;
 	clear: both;
 	height: 200px;
@@ -174,10 +183,24 @@ footer {
 	margin-top: 600px;
 }
 
- .social {
- 	margin-top: 1%;
-	width: 115px;
-	display: inline-block;
+h4 {
+	font-size: x-large;
+	margin-right: 200px;
+	margin-bottom: -54px;
 }
 
-/*media query down to 320*/
+/*/*.social {*/
+	width: 155px;
+}
+
+ .social {
+ 	margin-top: 1%;
+	width: 155px;
+	display: inline-block;
+	padding: 15px;
+	word-spacing: 10px;
+}
+
+/*@media screen and (max-width: 600px) {*/
+
+}
