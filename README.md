@@ -23,7 +23,7 @@ CSS
 This webpage contains a navigation bar, a header, a main body with three sections talking about dogs, and a footer. 
 
 <!-- Comp 1 Screenshot-->
-<img src="file:///Users/julianenochs/Downloads/dog-party-comp-1.png" alt="dog-party-comp-1">
+<img src="./images/dog-party-comp-1.png" alt="dog-party-comp-1">
 
 <!-- Comp 2 Screenshot -->
-<img src="file:///Users/julianenochs/Downloads/dog-party-comp-2.png" alt="dog-party-comp-2">
+<img src="./images/dog-party-comp-2.png" alt="dog-party-comp-2">
