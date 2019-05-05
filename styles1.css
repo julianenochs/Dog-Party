@@ -4,25 +4,20 @@
   box-sizing: border-box;
   /*border: red 1px solid;*/
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
 	margin: 0 auto;
+	width: 100%;
 }
 
 nav {
-	background-color: #75e2e6;
-	text-align: right;
-	padding: -1px 10px 10px 10px;
-	text-decoration: none;
 	border-bottom: solid;
 	border-bottom-color: #048eaa;
-}
-
-.logo {
-	margin-left: 10px;
-	margin-top: 10px;
-	height: 60px;
-	width: 60px;
+	background-color: #75e2e6;
+	padding: -1px 10px 10px 10px;
+	text-align: right;
+	text-decoration: none;
 }
 
 li {
@@ -31,101 +26,24 @@ li {
 }
 
 a:link {
-	text-decoration: none;
 	color:black;
+	text-decoration: none;
 }
 
-span.some-dogs {
-	font-style: bold;
-}
-
-.top-site {
-	background-image: url(file:///Users/julianenochs/Downloads/dogdownload/park.jpg);
-	background-size: cover;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	text-align: center;
-	font-size: large;
-	padding: 30px;
-	color: white;
-}
-
-.middle-site{
-	height: 60%;
-	text-align: ;
-
-}
-.dog-photo1 {
-	width: 240px;
-	border-radius: 50%;
-	border: 4px solid #048eaa;
-}
 form {
 	margin: 0 auto;
 	width: 250px;
 }
 
-.form-input{
-	text-align: left;
-	display: block;
-}
-
-.button1 {
-	background-color: #75e2e6;
-	text-align: center;
-	padding: 5px;
-	width: 250px;
-    font-size: medium;
-}
-
 h1 {
+	background-color: transparent;
+	color: white;
 	font-family: "Open sans" sans-serif;
 	font-weight: 400;
-	color: white;
-	background-color: transparent;
 }
 
 h2 {
-	margin-left: 80px;
-}
-
-.dog-photo {
-	width: 230px;
-	border-radius: 50%;
-	border: 4px solid #048eaa;
-	display: inline-block;
-	margin: 50px;
-}
-.text-box {
-	height: 300px;
-	width: 300px;
-	margin-left: 25px;
-}
-.row {
-	float:left;
-	width: 33%;
-	padding: 10px;
-	height: 900px;
-	margin-bottom: 30px;
-}
-
-.button2 {
-	background-color: #048eaa;
-	color: white;
-	width: 250px;
-	text-align: center;
-	font-size: large;
-	margin: 10px 50px 20px 50px;
-	height: 40px;
-}
-
-/*#what-button,
-#how-button {
-	margin: 10px 50px 20px 50px;
-}
-
-#facts-button {
-	margin: 35px 50px 20px 50px;*/
+	margin-left: 23px;
 }
 
 h4 {
@@ -134,10 +52,99 @@ h4 {
 
 footer {
 	background-color: #048eaa;
-	color: white;
-	text-align: center;
-	padding: 50px;
 	clear: both;
+	color: white;
 	height: 200px;
+	padding: 50px;
+	text-align: center;
 }
 
+.logo {
+	height: 60px;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 60px;
+}
+
+.top-site {
+	background-image: url(file:///Users/julianenochs/Downloads/dogdownload/park.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100% 100%;
+	color: white;
+	font-size: large;
+	padding: 30px;
+	text-align: center;
+}
+
+.middle-site{
+	height: 60%;
+	text-align: ;
+
+}
+
+.dog-photo1 {
+	border: 4px solid #048eaa;
+	border-radius: 50%;
+	display: inline-block;
+	width: 240px;
+}
+
+.form-input{
+	display: block;
+	text-align: left;
+}
+
+.submit-button {
+	background-color: #75e2e6;
+    font-size: medium;
+	padding: 5px;
+	text-align: center;
+	width: 250px;
+}
+
+.dog-photo {
+	border: 4px solid #048eaa;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 50px;
+	width: 230px;
+}
+
+.text-box {
+	display: inline-block;
+	font-size: large;
+	height: 300px;
+	/*margin-left: 100px;*/
+	text-align: left;
+	width: 300px;
+}
+
+.content {
+	float:left;
+	height: 900px;
+	margin-bottom: 30px;
+	padding: 10px;
+	text-align: center;
+	width: 545px;
+}
+
+.content-1,
+.content-2,
+.content-3, {
+	text-align: center;
+}
+
+.content-button {
+	background-color: #048eaa;
+	color: white;
+	height: 40px;
+	font-size: large;
+	/*margin: 10px 20px 20px 50px;*/	
+	text-align: center;
+	width: 250px;
+}
+
+.social {
+	word-spacing: 25px;
+}

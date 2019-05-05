@@ -7,5 +7,17 @@ White text: #ffffff
 Body text: #000000
 Font: Open Sans
 
-<img src="file:///Users/julianenochs/Desktop/Screen%20Shot%202019-04-30%20at%205.45.20%20PM.png" alt="top-of-site">
-<img src="file:///Users/julianenochs/Desktop/Screen%20Shot%202019-04-30%20at%205.45.31%20PM.png" alt="bottom-of-site">
+Design Comp 2
+Hex Codes:
+Light purple: #9A969C
+Dark purple: #3E3544
+Background color: #ffffff
+White text: #ffffff
+Body text: #000000
+Font: Roboto
+
+These are static webpages built with:
+HTML
+CSS
+
+This webpage contains a navigation bar, a header, a main body with three sections talking about dogs, and a footer. 
